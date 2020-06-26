@@ -1,3 +1,6 @@
+// Was zelf met de opdracht aardig bezig al, toen zag ik dat er een stappenplan was.
+// Toen ging ik daar naar kijken en ging alles door elkaar heen, maar uiteindelijk is het gelukt..
+
 let movieList = document.querySelector("#movieList");
 let radios = document.getElementsByName("search")
 Array.from(radios)
