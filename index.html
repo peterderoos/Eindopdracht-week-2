@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Movie Finder</title>
+    <script defer type="text/javascript" src="movies.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <div class="title">
+        <h1>Welkom bij de Winc Filmzoeker</h1>
+    </div>
+    <div class="buttons">
+        <ul>
+            <li><input type="radio" name="search" value="latest" class="test" onclick="clickedMovie('latest')">Laatste
+                films, 2014 of nieuwer</li>
+            <li><input type="radio" name="search" value="avenger" class="test"
+                    onclick="clickedMovie('avengers')">Avenger
+                films</li>
+            <li> <input type="radio" name="search" value="xmen" class="test" onclick="clickedMovie('xmen')">X-men films
+            </li>
+            <li><input type="radio" name="search" value="princess" class="test"
+                    onclick="clickedMovie('princess')">Princess films</li>
+            <li> <input type="radio" name="search" value="batman" class="test" onclick="clickedMovie('batman')">Batman
+                films</li>
+        </ul>
+    </div>
+    <ul id="movieList">
+
+    </ul>
+
+    </ul>
+</body>
+
+</html>
